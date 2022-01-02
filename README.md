@@ -5,6 +5,63 @@ This was my project from the 12th semester of course Computer Graphics and Multi
 Our project is based on Solar System. Basically The solar system is the sun and everything that orbits around it. It includes the planets and their moons as well as numerous asteroids and comets. These objects are all held in orbit around the sun by the sun's strong gravity. In our Project we have included the planets according to thier orbit. By giving the necessary functions we try to bring the real graphical interface which shows the natural look of our solar system and by observing this anyone can get knowledge about the 3d View of our solar system and it can be used for educational purposes.
 
 ---
+## About function 
+
+*void drawStar() and void drawSolar()
+
+glColor3f(): Can be called in between glBegin and glEnd, when it is used this way. It can be used to give each vertex its own color. The resulting rectangle is then shaded with an attractive color gradient.
+
+glVertex3f(): It has three floating point, which is considered as x,y and z. It determines where the vertex is in space.
+
+glutSwapBuffers(): glutSwapBuffers swaps the buffers of the current window if double buffered. Performs a buffer swap on the layer in use for the current window. Specifically, glutSwapBuffers promotes the contents of the back buffer of the layer in use of the current window to become the contents of the front buffer.
+
+glEnable(): It enable to plug in colors you want to enter in it.
+
+glLightfv(): The glLightfv function sets the value or values of individual light source parameters.
+
+glTranslatef(): The glTranslatef function multiplies the current matrix by a translation matrix.
+
+glutSolidSphere(): The glutSolidSphere() function draws a shaded sphere centered at the origin. The surface is created from quadrangles (except for triangles as degenerate quads at the poles) in a longitude/latitude pattern. The equatorial great circle lies in the xy-plane and is centered on the origin.
+
+glRotatef(): The glRotatef function computes a matrix that performs a counterclockwise rotation of angle degrees about the vector from the origin through the point (x, y, z). 
+
+*void renderScene(void)
+
+glClear(): Clear Color and Depth Buffers
+
+glLoadIdentity(): Reset transformations
+
+gluLookAt(): Set the camera
+
+glPushMatrix() and glPopMatrix(): Used for push and pop the current matrix stack
+
+for loop(): Using for draw a solar and star 
+
+*void processSpecialKeys()
+
+Using switch case statement to implement it and include break statement at bottom
+
+*void changeSize()
+
+Using for windows size
+
+glMatrixMode(): Use the Projection Matrix
+
+glLoadIdentity(): Reset Matrix
+
+glViewport(): Set the viewport to be the entire window
+
+gluPerspective(): Set the correct perspective
+
+glMatrixMode(): Get Back to the Modelview
+
+*void processNormalKeys()
+
+When to exit the program
+
+*int main()
+
+It's a callback function, callback function called when even occurs. This functionis used to callback all the above function 
 
 ## Simple explanation of code
 
