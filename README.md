@@ -112,8 +112,12 @@ That's all about my project. By working on this project I learned a lot. Thank y
 
 ---
 
+## Tools Stack
+- Language: C++
+- IDE: CodeBlocks
+- Library: Glut, freeglut, OpenGL
 
-# Youtube Link
+## Youtube Link
 Click on the link below to get a good explanation of the code and to understand it better.
 
 https://youtu.be/bettCwYlq-A
@@ -133,6 +137,18 @@ The rotation of the planets around the sun
 After that; if you have any query then you can email me:  jabedhossainsujel79@gmail.com 
 
 ---
+
+## Author
+Name: Md. Jabed Hossain Sujel
+ID: 181-115-034
+Dept. of CSE
+Metropolitan University, Sylhet
+
+##Project Supervisor
+Name: Masum Ahmed Eesha 
+Lecturer
+Dept. of CSE
+Metropolitan University, Sylhet
 
 ## License
 
