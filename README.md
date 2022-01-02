@@ -1,13 +1,16 @@
 # Solar System
  
-# 3D Solar System Scene
 This was my project from the 12th semester of course Computer Graphics and Multimedia.
-Let us add some more information 
-Our project is based on Solar System 
-Basically The solar system is the sun and everything that orbits around it. It includes the planets and their moons as well as numerous asteroids and comets. These objects are all held in orbit around the sun by the sun's strong gravity. In our Project we have included the planets according to thier orbit. By giving the necessary functions we try to bring the real graphical interface which shows the natural look of our solar system and by observing this anyone can get knowledge about the 3d View of our solar system and it can be used for educational purposes.
 
+Let us add some more information.
+
+Our project is based on Solar System.
+
+Basically The solar system is the sun and everything that orbits around it. It includes the planets and their moons as well as numerous asteroids and comets. These objects are all held in orbit around the sun by the sun's strong gravity. In our Project we have included the planets according to thier orbit. By giving the necessary functions we try to bring the real graphical interface which shows the natural look of our solar system and by observing this anyone can get knowledge about the 3d View of our solar system and it can be used for educational purposes.
+---
 
 ## Simple explanation of code
+
 Now I will explain the code. 
 
 First of all we define the angle of rotation for the camera, direction and Position of the camera according to viewpoint. 
@@ -34,6 +37,6 @@ At the very last we work on our main function
 This initialize the graphic window, register the callbacks to display our project and completes the whole event processing circle. 
 
 That's all about my project. By working on this project I learned a lot. Thank you!
+---
 
-
-Youtube: https://youtu.be/bettCwYlq-A
+# Youtube: https://youtu.be/bettCwYlq-A
