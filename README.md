@@ -32,3 +32,6 @@ make
 the compilation and linking.
 That’s it if there are no errors you will have your game executable (on running you will see three shapes on your screen). Otherwise try to remove the pointed syntax errors and repeat the make procedure.
 
+
+
+Youtube: https://youtu.be/bettCwYlq-A
