@@ -25,6 +25,8 @@ glutSolidSphere(): The glutSolidSphere() function draws a shaded sphere centered
 
 glRotatef(): The glRotatef function computes a matrix that performs a counterclockwise rotation of angle degrees about the vector from the origin through the point (x, y, z). 
 
+---
+
 *void renderScene(void)
 
 glClear(): Clear Color and Depth Buffers
@@ -37,9 +39,13 @@ glPushMatrix() and glPopMatrix(): Used for push and pop the current matrix stack
 
 for loop(): Using for draw a solar and star 
 
+---
+
 *void processSpecialKeys()
 
 Using switch case statement to implement it and include break statement at bottom
+
+---
 
 *void changeSize()
 
@@ -55,13 +61,19 @@ gluPerspective(): Set the correct perspective
 
 glMatrixMode(): Get Back to the Modelview
 
+---
+
 *void processNormalKeys()
 
 When to exit the program
 
+---
+
 *int main()
 
 It's a callback function, callback function called when even occurs. This functionis used to callback all the above function 
+
+---
 
 ## Simple explanation of code
 
