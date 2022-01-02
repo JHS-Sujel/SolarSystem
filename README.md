@@ -42,3 +42,16 @@ That's all about my project. By working on this project I learned a lot. Thank y
 Click on the link below to get a good explanation of the code and to understand it better.
 
 https://youtu.be/bettCwYlq-A
+
+## How to install and run my project on your local system
+
+- Clone the repository with git clone https://github.com/JHS-Sujel/SolarSystem
+- Intall codeblocks or dev c++ 
+- Setup freeglut on your program ( Youtube link; for CodeBlocks https://www.youtube.com/watch?v=4-SkG5Xh5ME & Dev C++ https://www.youtube.com/watch?v=8Qkpaewj-7Y ) 
+- Open project (Solar System.cbp file)
+- Then Run
+---
+
+## License
+
+Basically, feel free to use and re-use any way you want.
