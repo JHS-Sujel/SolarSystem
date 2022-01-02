@@ -139,15 +139,23 @@ After that; if you have any query then you can email me:  jabedhossainsujel79@gm
 ---
 
 ## Author
+
 Name: Md. Jabed Hossain Sujel
+
 ID: 181-115-034
+
 Dept. of CSE
+
 Metropolitan University, Sylhet
 
-##Project Supervisor
-Name: Masum Ahmed Eesha 
+## Project Supervisor
+
+Name: Masum Ahmed Eesha
+
 Lecturer
+
 Dept. of CSE
+
 Metropolitan University, Sylhet
 
 ## License
