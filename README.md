@@ -102,6 +102,11 @@ Afterthat we have Taken function to setting up our key value which Include the c
 At the very last we work on our main function 
 This initialize the graphic window, register the callbacks to display our project and completes the whole event processing circle. 
 
+Now i will run my project 
+
+The first appearance is animation of planet movement, they move around the sun automatically, and it also give general information about the solar system.
+![Screenshot (517)](https://user-images.githubusercontent.com/73945266/147875979-c2bd6c57-0947-41ca-8188-e9b6371bc10b.png)
+
 That's all about my project. By working on this project I learned a lot. Thank you!
 
 ---
