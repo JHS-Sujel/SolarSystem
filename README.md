@@ -1,37 +1,39 @@
 # Solar System
  
 # 3D Solar System Scene
-This was my project from the sixth semester of course Computer Graphics.
+This was my project from the 12th semester of course Computer Graphics and Multimedia.
+Let us add some more information 
+Our project is based on Solar System 
+Basically The solar system is the sun and everything that orbits around it. It includes the planets and their moons as well as numerous asteroids and comets. These objects are all held in orbit around the sun by the sun's strong gravity. In our Project we have included the planets according to thier orbit. By giving the necessary functions we try to bring the real graphical interface which shows the natural look of our solar system and by observing this anyone can get knowledge about the 3d View of our solar system and it can be used for educational purposes.
 
 
-## 1     Instructions
+## Simple explanation of code
+Now I will explain the code. 
 
-### 1.1     Installing libraries on Linux (Ubuntu)
-You can install libraries either from the Ubuntu software center or from command line.  We  recommend  command  line  and  provide  the  file  “install-libraries.sh”  to automate the complete installation procedure. To install libraries:
+First of all we define the angle of rotation for the camera, direction and Position of the camera according to viewpoint. 
 
-  1.  Simply   run  the  terminal   and   go   to  directory   which   contains   the   file
-  downloaded file “install-libraries.sh”.
-  
-  bash install-libraries.sh
+Then We have taken function Call drawStar.
+In which we set the star color White, included function glBegin and glend functions to delimit the vertices. This function accepts  argument in our function. 
 
-  2.  Run the command
-  3.  Provide the password and wait for the libraries to be installed. If you get an error that libglew1.6-dev cannot be found, try installing an older version,
+Then we set the light according to the surrounding graphical interface and set the lighting position. This will help us to easily setup the solar system planets color. 
 
-  sudo apt-get install libglew1.5-dev
-  such as libglew1.5-dev by issuing following on command line
+Afterthat  we draw the solar system 
+In which we include our all the planet color by calling the function and then transtalting the values. Also included function glutSolidSpeher this Renders a sphere centered at the modeling coordinates origin of the specified radius.  
 
-  4.  If you have any other flavour of Linux. You can follow similar procedure to
-  install “OpenGL” libraries. 
+Then we have taken  function called void renderScene in Which we set The gluLookAt function which defines the viewing transformation. Under this section we also add conditions to draw the solar and Star. 
 
-### 1.2     Compiling and Executing
-To compile the game (skeleton)  each  time you  will be using “g++”.  However  to automate the compilation and linking process we use a program  “make”.  Make takes as an input a file containing the names of files to compile and libraries to link. This file is named as “Makefile” in the game folder and contains the detail of all the libraries that game uses and need to linked.
+Then we call a function void processSpecialKeys this will set the special keyboard callback for the current window. The special keyboard callback is triggered when keyboard function or directional keys are pressed. We use Switch case statement to implement it and include break statement at Bottom. 
 
-So each time you need to compile and link your program (game) you will be
-simply calling the “make” utility in the game directory on the terminal to perform
-make
-the compilation and linking.
-That’s it if there are no errors you will have your game executable (on running you will see three shapes on your screen). Otherwise try to remove the pointed syntax errors and repeat the make procedure.
+Afterthat we include function void changeSize to set the Window size and given our window ration as needed to our requirement. 
 
+
+Afterthat we have Taken function to setting up our key value which Include the conditions when to exit the program. 
+
+
+At the very last we work on our main function 
+This initialize the graphic window, register the callbacks to display our project and completes the whole event processing circle. 
+
+That's all about my project. By working on this project I learned a lot. Thank you!
 
 
 Youtube: https://youtu.be/bettCwYlq-A
