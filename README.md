@@ -50,6 +50,7 @@ https://youtu.be/bettCwYlq-A
 - Setup freeglut on your program ( Youtube link; for CodeBlocks https://www.youtube.com/watch?v=4-SkG5Xh5ME & Dev C++ https://www.youtube.com/watch?v=8Qkpaewj-7Y ) 
 - Open project (Solar System.cbp file)
 - Then Run
+- ![Screenshot (517)](https://user-images.githubusercontent.com/73945266/147875979-c2bd6c57-0947-41ca-8188-e9b6371bc10b.png)
 ---
 
 ## License
