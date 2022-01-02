@@ -105,6 +105,7 @@ This initialize the graphic window, register the callbacks to display our projec
 Now i will run my project 
 
 The first appearance is animation of planet movement, they move around the sun automatically, and it also give general information about the solar system.
+
 https://user-images.githubusercontent.com/73945266/147878964-7e1cf164-3edc-481d-b58f-978a19157113.mp4
 
 That's all about my project. By working on this project I learned a lot. Thank you!
